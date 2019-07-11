@@ -69,6 +69,7 @@ public class Main {
             System.out.println("\t" + moon.getKey());
         }
 
+        System.out.println("git testing");
         for(Heavenly planet: planets)
         {
             System.out.println(planet);
@@ -77,7 +78,7 @@ public class Main {
         Heavenly earth1 = new Planet("Earth", 365);
         Heavenly earth2 = new Planet("Earth", 365);
 
-        System.out.println(earth1.equals(earth2));
+        System.out.println("git testin");
 
 
     }
